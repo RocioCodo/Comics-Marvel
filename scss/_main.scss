@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+    padding-right: 10vh;
+    padding-left: 10vh;
+    padding-bottom: 3vh;
+    margin-bottom: 1vh;
+
+    .results-tit{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .results-count{
+        font-size: 15px;
+        color: rgba(59, 58, 58, 0.615);
+        font-weight: 600;
+    }
+
+    .results {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        min-height: 300px;
+   
+      }
+      
+      .no-results {
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      
+      .comic {
+        width: calc(100% / 5 - 2 * 10px);
+        margin: 0px 10px 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        
+      }
+      
+      .comic-thumbnail {
+        height: 100%;
+        box-shadow: 0 26px 24px -16px rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+        transform: translateY(0);
+        transition: 0.2s;
+    
+      }
+      
+      .comic:focus {
+        outline: 0;
+      }
+      
+      .comic:focus .comic-thumbnail,
+      .comic:hover .comic-thumbnail {
+        transform: translateY(-10px);
+      }
+      
+      .comic:focus .comic-title,
+      .comic:hover .comic-title {
+        color: #ed1d23;
+      }
+      
+      .comic-img-container {
+        height: 300px;
+       width: 250px;
+      }
+      
+      .comic .comic-title {
+        height: 64px;
+        margin-top: 25px;
+        
+      }
+   .img{
+    width: 100%;
+   }
+
+   .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+      .pagination-button{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        padding: 5px 10px;
+        margin: 0 5px;
+        color: black;
+        transition: 0.2s;
+        border: transparent;
+      }
+
+      .pagination-button:hover{
+        background-color: #F44336 !important;
+      }
+   }
+
+
+}

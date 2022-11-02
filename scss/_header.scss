@@ -1,0 +1,54 @@
+.img-encabezado{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+header{
+    padding-right:10vh;
+    padding-left: 10vh;
+
+.busqueda-tit{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.filtros{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1px !important;
+}
+
+.select{
+    margin: 10px;
+}
+
+.label{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.filtro-tipo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.filtro-orden{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-buscar{
+    margin-right: 10px !important;
+    font-size: 20px;
+}
+}
+
+
+
+
+
+
